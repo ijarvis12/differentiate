@@ -45,7 +45,7 @@ except:
     _ = input("Press <Enter> to end program")
     exit()
 
-# make step variable h as small as conveniently possible
+# make step variable h as small as conveniently possible for eval(), uses floats
 h = Decimal('0.000000000000001')
 
 # differentiate
