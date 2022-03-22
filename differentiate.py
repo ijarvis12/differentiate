@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 ##                                                ##
 ## program differentiates a user inputed function ##
