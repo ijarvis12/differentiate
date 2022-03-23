@@ -46,7 +46,8 @@ except:
     exit()
 
 # make step variable h as small as conveniently possible for eval()
-h = Decimal('0.000000000000001')
+xLen = len(str(x))
+h = (Decimal(1)/(Decimal(10)**15))*(Decimal(10)**(xLen-1))
 
 # differentiate
 y = (Decimal(1)/(2*h))*Decimal(f(x-2*h) - 4*f(x-h) + 3*f(x))
